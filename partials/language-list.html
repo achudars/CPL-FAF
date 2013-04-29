@@ -1,0 +1,26 @@
+
+<div class="container-fluid">
+  <header class="row-fluid .TURQUOISE span12">
+    <h1>Comparison of Programming Languages and Frameworks</h1>
+  </header>
+</div>
+<div class="container-fluid">
+  <div class="row-fluid .TURQUOISE span12">
+     &nbsp;Search: <input type="text" data-ng-model="query" />
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row-fluid .TURQUOISE span12">
+   
+      <!--Body content-->
+      <ul>
+        <li ng-repeat="language in languages | filter:query | orderBy:id" class="thumbnail">
+          <div id="one">{{language.id}}</div>
+          <div id="two">{{language.type}}</div>
+          <div id="three">{{language.name}}</div>
+          <div id="four">{{language.use}}</div>
+        </li>
+      </ul>
+
+  </div>
+</div>

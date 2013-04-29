@@ -1,0 +1,96 @@
+* {
+	color: #ECF0F1;
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	padding-top: 10px;
+  	text-transform:uppercase;
+  	text-align: center;
+  	font-size: 78px;
+  	font-weight: 300;
+	font-family: 'Six Caps', sans-serif;
+}
+
+
+body {
+	background-color: #2C3E50;
+	background: #2C3E50; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #2C3E50 0%, #1ABC9C 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#2C3E50), color-stop(100%,#1ABC9C)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #2C3E50 0%, #1ABC9C 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #2C3E50 0%,#1ABC9C 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #2C3E50 0%,#1ABC9C 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #2C3E50 0%,#1ABC9C 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C3E50', endColorstr='#1ABC9C',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.span12 {
+	padding: 3px;
+	margin: 3px;
+	background-color: #1ABC9C;
+	border-radius: 3px;
+}
+
+li {
+	margin: 2px;
+	border: none !important;
+	outline: none;
+	background-color: #2C3E50;
+	height: 50px;
+	cursor: pointer;
+}
+
+ul {
+	margin: 0px;
+
+}
+
+li div {
+	vertical-align:middle;
+	display: inline-block;
+	padding: 3px;
+	margin: 3px;
+	background-color: #2C3E50;
+	border-radius: 3px;
+}
+#one, #two, #three, #four {
+	background-color: #34495E;
+	height:20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-transition: 1s ease;
+}
+#one {
+	width: 25px;
+}
+#two {
+	width: 100px;
+}
+#three {
+	width: 150px;
+}
+#three:hover, #four:hover{
+	width: 400px;
+	-webkit-transition: 1s ease;
+	background-color: #1ABC9C;
+}
+
+header {
+	height: 100px;
+}
+
+input[type="text"] {
+	width: 91%;
+}

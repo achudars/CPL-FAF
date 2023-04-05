@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/124624ab-f38d-4f0c-abdd-a53e235fbf4c/deploy-status)](https://app.netlify.com/sites/endearing-semifreddo-159682/deploys)
+
 CPL-FAF
 =======
 

@@ -4,8 +4,8 @@
  * Highly customizable <select> lists
  * https://github.com/JamieLottering/DropKick
  *
- * &copy; 2011 Jamie Lottering <http://github.com/JamieLottering>
- *                        <http://twitter.com/JamieLottering>
+ * &copy; 2011 Jamie Lottering <https://github.com/JamieLottering>
+ *                        <https://twitter.com/JamieLottering>
  * 
  */
 (function ($, window, document) {
